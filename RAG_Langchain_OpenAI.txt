@@ -2,35 +2,35 @@ Generative AI & Retrieval-Augmented Generation (RAG) Models
 
 This repository contains a collection of Large Language Model (LLM) applications, including text generation, fine-tuning, summarization, and Retrieval-Augmented Generation (RAG) using OpenAI and LangChain. The included Jupyter Notebooks provide step-by-step implementations of these advanced NLP techniques using Hugging Face Transformers, LangChain, and Pinecone.
 
-1. Transformers_GPT2.ipynb - GPT-2 for Text Generation:
+1. Transformers_GPT2 - GPT-2 for Text Generation:
 
 Uses GPT-2 from Hugging Face for text generation.
 Demonstrates the pipeline function for easy model interaction.
 Eliminates the need for manual model downloads and preprocessing.
 Libraries Used: transformers, requests, google.
 
-2. Text_Completion_Fine_Tuning_LLMs.ipynb - Fine-Tuning LLMs for Text Completion:
+2. Text_Completion_Fine_Tuning_LLMs- Fine-Tuning LLMs for Text Completion:
 
 Explains pre-training vs fine-tuning of LLMs.
 Uses Hugging Face’s Trainer API to fine-tune models for domain-specific tasks.
 Covers dataset preparation, model training, and evaluation.
 Libraries Used: transformers, datasets, os.
 
-3. Text_Summarization_Model_LLMS.ipynb - Text Summarization with Encoder-Decoder Models:
+3. Text_Summarization_Model_LLMS- Text Summarization with Encoder-Decoder Models:
 
 Covers sequence-to-sequence (seq2seq) architectures for summarization.
 Implements transformers for text summarization.
 Demonstrates the use of encoder-decoder models like BART/T5.
 Libraries Used: transformers.
 
-4. RAG_OPENAI.ipynb - Retrieval-Augmented Generation (RAG) with OpenAI:
+4. RAG_OPENAI- Retrieval-Augmented Generation (RAG) with OpenAI:
 
 Uses Pinecone and LangChain for knowledge retrieval.
 Implements vector database indexing and retrieval for enhancing LLMs.
 Ensures the LLM retrieves relevant information from an external knowledge base.
 Libraries Used: langchain, pinecone, google, os, time.
 
-5. RAG_Langchain_Pinecone.ipynb - RAG with LangChain & Pinecone:
+5. RAG_Langchain_Pinecone- RAG with LangChain & Pinecone:
 
 Implements chunking and retrieval-based techniques for text processing.
 Uses Pinecone for vector search indexing.

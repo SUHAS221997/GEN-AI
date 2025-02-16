@@ -1,0 +1,19 @@
+Generative AI Models: GPT-2, Fine-Tuning, and Summarization
+
+This repository contains three Jupyter Notebooks focused on different applications of Large Language Models (LLMs):
+
+1. GPT-2 for Text Generation 
+2. Fine-Tuning LLMs for Text Completion
+3. Text Summarization using LLMs 
+
+Text_Summarization_Model_LLMS- Summarization with Encoder-Decoder Models:
+
+1. Covers Encoder-Decoder architectures for structured input-output tasks like summarization.
+2. Uses Hugging Face Transformers for summarizing large text passages.
+3. Libraries Used: transformers
+
+Results & Evaluation:
+
+Text Generation: Generates fluent and meaningful text from prompts.
+Fine-Tuning: Adapts a pre-trained model to custom text completion tasks.
+Summarization: Produces concise and coherent summaries of long documents.

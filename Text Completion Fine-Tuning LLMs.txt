@@ -1,0 +1,12 @@
+Text Completion Fine-Tuning LLMs
+
+This repository provides a guide on 'fine-tuning Large Language Models (LLMs) for text completion' using 'Hugging Face Transformers'.
+The included Jupyter Notebook demonstrates how to train and fine-tune a pre-trained LLM for generating high-quality text completions.
+
+Features
+
+- Fine-tuning a pre-trained LLM (e.g., GPT-2, GPT-3)  
+- Custom dataset preparation for 'text completion'
+- Training pipeline using 'Hugging Face's Trainer API'  
+- Evaluation and inference for generating text  
+

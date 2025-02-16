@@ -1,0 +1,9 @@
+GPT-2 Transformers
+
+This repository contains a Jupyter Notebook that demonstrates how to use the 'GPT-2' model from the 'Hugging Face Transformers library' for text generation.
+
+Features:
+
+- Implements 'GPT-2' for text generation
+- Uses 'Hugging Face Transformers' for model loading and inference
+- Supports 'custom prompts' for generating text

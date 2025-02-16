@@ -1,0 +1,30 @@
+Generative AI & Retrieval-Augmented Generation (RAG) Models
+
+This repository contains a collection of Large Language Model (LLM) applications, including text generation, fine-tuning, summarization, and Retrieval-Augmented Generation (RAG) with OpenAI. The notebooks provide end-to-end implementations using Hugging Face Transformers, LangChain, and Pinecone.
+
+
+Uses GPT-2 from Hugging Face for text generation.
+Implements the pipeline function for simplified model interaction.
+Libraries Used: transformers, requests, google.
+
+
+Explains pre-training vs fine-tuning concepts.
+Uses Hugging Face’s Trainer API for model adaptation.
+Libraries Used: transformers, datasets, os.
+
+
+Covers encoder-decoder architectures for structured input-output tasks.
+Uses Hugging Face Transformers for text summarization.
+Libraries Used: transformers.
+
+
+Implements LangChain and Pinecone for knowledge retrieval.
+Demonstrates vector database indexing and retrieval from a large knowledge base.
+Libraries Used: langchain, pinecone, google, os, time
+
+Applications & Use Cases:
+
+Text Generation: GPT-2 generates human-like text.
+Fine-Tuning: Customizing LLMs for domain-specific tasks.
+Summarization: Condensing long documents into concise summaries.
+RAG (Retrieval-Augmented Generation): Enhancing LLMs with external knowledge retrieval.
